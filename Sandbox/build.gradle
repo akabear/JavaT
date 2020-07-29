@@ -1,3 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "Hello"
+mainClassName = "LessonA"
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation("org.testng:testng:7.1.0")
+}

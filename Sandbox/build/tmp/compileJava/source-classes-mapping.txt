@@ -1,2 +1,4 @@
-ru/stqa/pft/sandbox/Hello.java
- ru.stqa.pft.sandbox.Hello
+Rectangle.java
+ Rectangle
+LessonA.java
+ LessonA
