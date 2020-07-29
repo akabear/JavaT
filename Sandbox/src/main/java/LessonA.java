@@ -1,7 +1,7 @@
 public class LessonA {
 
   public static void main(String[] args) {
-    Rectangle r = new Rectangle(7.0, 5.0);
+    Rectangle r = new Rectangle(7, 5.0);
     System.out.println("Hello " + calcArea(r));
   }
 
