@@ -1,11 +1,9 @@
 public class LessonA {
 
   public static void main(String[] args) {
-    Rectangle r = new Rectangle(7, 5.0);
-    System.out.println("Hello " + calcArea(r));
+    Rectangle r = new Rectangle(9, 2);
+    System.out.println("Hello " + r.countArea());
   }
 
-  public static double calcArea(Rectangle r) {
-    return r.a * r.b;
+
   }
-}  

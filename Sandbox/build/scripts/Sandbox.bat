@@ -86,7 +86,7 @@ set CLASSPATH=%APP_HOME%\lib\Sandbox.jar;%APP_HOME%\lib\testng-7.1.0.jar;%APP_HO
 
 
 @rem Execute Sandbox
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SANDBOX_OPTS%  -classpath "%CLASSPATH%" Hello3 %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SANDBOX_OPTS%  -classpath "%CLASSPATH%" LessonA %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

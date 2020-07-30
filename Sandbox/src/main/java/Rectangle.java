@@ -7,11 +7,9 @@ public class Rectangle {
     this.b = b;
   }
 
-  public Rectangle(double a) {
-    this.a = a;
-  }
-  private double countArea(Rectangle r){
-     return r.a*r.b;
+
+  public double countArea(){
+     return this.a*this.b;
   }
 
 }
